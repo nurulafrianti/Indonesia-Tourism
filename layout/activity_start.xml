@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="id.nurulafrianti.indonesiatourism.Start">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/textStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Destination"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/btn_Start1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumatra"
+                android:layout_below="@id/textStart"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Start2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Java"
+                android:layout_below="@id/btn_Start1"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Start3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kalimantan"
+                android:layout_below="@id/btn_Start2"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Start4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sulawesi"
+                android:layout_below="@id/btn_Start3"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Start5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bali"
+                android:layout_below="@id/btn_Start4"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Start6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nusa Tenggara"
+                android:layout_below="@id/btn_Start5"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Start7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maluku"
+                android:layout_below="@id/btn_Start6"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <Button
+                android:id="@+id/btn_Start8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Papua"
+                android:layout_below="@id/btn_Start7"
+                android:background="#3F51B5"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

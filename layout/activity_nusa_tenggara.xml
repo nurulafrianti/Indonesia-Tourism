@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nusa_tenggara"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.nurulafrianti.indonesiatourism.NusaTenggara">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageNusaTenggara1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lombok"
+                    />
+
+                <TextView
+                    android:id="@+id/judulNusaTenggara1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LOMBOK, ALLURING ISLAND IN THE WEST NUSA TENGGARA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageNusaTenggara1"
+                    android:background="#FFCC80"
+                    />
+
+                <TextView
+                    android:id="@+id/descNusaTenggara1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_nusatenggara1"
+                    android:layout_below="@id/judulNusaTenggara1"
+                    android:background="#FFCC80"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageNusaTenggara2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sumbawa"
+                    android:layout_below="@id/descNusaTenggara1"
+                    />
+
+                <TextView
+                    android:id="@+id/judulNusaTenggara2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SUMBAWA, A PERFECT PLACE TO SURF AND DIVE IN THE WEST NUSA TENGGARA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageNusaTenggara2"
+                    android:background="#FFCC80"
+                    />
+
+                <TextView
+                    android:id="@+id/descNusaTenggara2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_nusatenggara2"
+                    android:layout_below="@id/judulNusaTenggara2"
+                    android:background="#FFCC80"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageNusaTenggara3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/labuanbajo"
+                    android:layout_below="@id/descNusaTenggara2"
+                    />
+
+                <TextView
+                    android:id="@+id/judulNusaTenggara3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LABUAN BAJO, A PERFECT GETAWAY FOR ADVENTURERS"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageNusaTenggara3"
+                    android:background="#FFCC80"
+                    />
+
+                <TextView
+                    android:id="@+id/descNusaTenggara3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_nusatenggara3"
+                    android:layout_below="@id/judulNusaTenggara3"
+                    android:background="#FFCC80"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageNusaTenggara4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/flores"
+                    android:layout_below="@id/descNusaTenggara3"
+                    />
+
+                <TextView
+                    android:id="@+id/judulNusaTenggara4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FLORES, THE MOST FASCINATING ISLAND IN THE EAST NUSA TENGGARA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageNusaTenggara4"
+                    android:background="#FFCC80"
+                    />
+
+                <TextView
+                    android:id="@+id/descNusaTenggara4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_nusatenggara4"
+                    android:layout_below="@id/judulNusaTenggara4"
+                    android:background="#FFCC80"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sulawesi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.nurulafrianti.indonesiatourism.Sulawesi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageSulawesi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tomohon"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSulawesi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FLOWER CITY OF TOMOHON"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSulawesi1"
+                    android:background="#FFCDD2"
+                    />
+
+                <TextView
+                    android:id="@+id/descSulawesi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sulawesi1"
+                    android:layout_below="@id/judulSulawesi1"
+                    android:background="#FFCDD2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSulawesi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/manado"
+                    android:layout_below="@id/descSulawesi1"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSulawesi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MANADO, THE NEW INTERNATIONAL CONVENTIONS AND EXHIBITIONS VENUE"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSulawesi2"
+                    android:background="#FFCDD2"
+                    />
+
+                <TextView
+                    android:id="@+id/descSulawesi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sulawesi2"
+                    android:layout_below="@id/judulSulawesi2"
+                    android:background="#FFCDD2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSulawesi3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tanatoraja"
+                    android:layout_below="@id/descSulawesi2"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSulawesi3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TANA TORAJA, THE LAND WITH SPECTACULAR NATURE AND UNIQUELY CULTURE"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSulawesi3"
+                    android:background="#FFCDD2"
+                    />
+
+                <TextView
+                    android:id="@+id/descSulawesi3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sulawesi3"
+                    android:layout_below="@id/judulSulawesi3"
+                    android:background="#FFCDD2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSulawesi4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/selayar"
+                    android:layout_below="@id/descSulawesi3"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSulawesi4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SELAYAR, THE HOME OF PRISTINE WHITE SAND BEACHES"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSulawesi4"
+                    android:background="#FFCDD2"
+                    />
+
+                <TextView
+                    android:id="@+id/descSulawesi4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sulawesi4"
+                    android:layout_below="@id/judulSulawesi4"
+                    android:background="#FFCDD2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSulawesi5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/makassar"
+                    android:layout_below="@id/descSulawesi4"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSulawesi5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MAKASSAR, THE GATE TO THE EAST INDONESIA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSulawesi5"
+                    android:background="#FFCDD2"
+                    />
+
+                <TextView
+                    android:id="@+id/descSulawesi5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sulawesi5"
+                    android:layout_below="@id/judulSulawesi5"
+                    android:background="#FFCDD2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSulawesi6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/poso"
+                    android:layout_below="@id/descSulawesi5"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSulawesi6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="THE ANCIENT LAKE POSO"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSulawesi6"
+                    android:background="#FFCDD2"
+                    />
+
+                <TextView
+                    android:id="@+id/descSulawesi6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sulawesi6"
+                    android:layout_below="@id/judulSulawesi6"
+                    android:background="#FFCDD2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

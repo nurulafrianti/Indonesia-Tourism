@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bali"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.nurulafrianti.indonesiatourism.Bali">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageBali1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sanur"
+                    />
+
+                <TextView
+                    android:id="@+id/judulBali1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SANUR, PEACEFUL VILLAGE IN BALI"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageBali1"
+                    android:background="#F0F4C3"
+                    />
+
+                <TextView
+                    android:id="@+id/descBali1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_bali1"
+                    android:layout_below="@id/judulBali1"
+                    android:background="#F0F4C3"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageBali2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/seminyak"
+                    android:layout_below="@id/descBali1"
+                    />
+
+                <TextView
+                    android:id="@+id/judulBali2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SEMINYAK, THE CENTRE OF LIFE IN BALI"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageBali2"
+                    android:background="#F0F4C3"
+                    />
+
+                <TextView
+                    android:id="@+id/descBali2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_bali2"
+                    android:layout_below="@id/judulBali2"
+                    android:background="#F0F4C3"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageBali3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/uluwatu"
+                    android:layout_below="@id/descBali2"
+                    />
+
+                <TextView
+                    android:id="@+id/judulBali3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ULUWATU, HOME OF THE MOST FAMOUS WAVES IN BALI"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageBali3"
+                    android:background="#F0F4C3"
+                    />
+
+                <TextView
+                    android:id="@+id/descBali3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_bali3"
+                    android:layout_below="@id/judulBali3"
+                    android:background="#F0F4C3"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageBali4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tanahlot"
+                    android:layout_below="@id/descBali3"
+                    />
+
+                <TextView
+                    android:id="@+id/judulBali4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TANAH LOT, MAGNIFICENT BALINESE TEMPLE IN THE OPEN OCEAN"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageBali4"
+                    android:background="#F0F4C3"
+                    />
+
+                <TextView
+                    android:id="@+id/descBali4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_bali4"
+                    android:layout_below="@id/judulBali4"
+                    android:background="#F0F4C3"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageBali5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kuta"
+                    android:layout_below="@id/descBali4"
+                    />
+
+                <TextView
+                    android:id="@+id/judulBali5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KUTA, FROM A SLEEPY VILLAGE TO A POPULAR BEACH DESTINATION"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageBali5"
+                    android:background="#F0F4C3"
+                    />
+
+                <TextView
+                    android:id="@+id/descBali5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_bali5"
+                    android:layout_below="@id/judulBali5"
+                    android:background="#F0F4C3"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

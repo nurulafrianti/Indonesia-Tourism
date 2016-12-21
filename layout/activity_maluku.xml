@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_maluku"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.nurulafrianti.indonesiatourism.Maluku">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageMaluku1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/halmahera"
+                    />
+
+                <TextView
+                    android:id="@+id/judulMaluku1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HALMAHERA, THE LARGEST ISLAND WITH WHITE SANDY BEACHES IN MALUKU"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageMaluku1"
+                    android:background="#CFD8DC"
+                    />
+
+                <TextView
+                    android:id="@+id/descMaluku1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_maluku1"
+                    android:layout_below="@id/judulMaluku1"
+                    android:background="#CFD8DC"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageMaluku2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ternatetidore"
+                    android:layout_below="@id/descMaluku1"
+                    />
+
+                <TextView
+                    android:id="@+id/judulMaluku2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TERNATE AND TIDORE, THE SMALL ISLANDS WITH FLAVORSOME AND HISTORICAL DELIGHT"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageMaluku2"
+                    android:background="#CFD8DC"
+                    />
+
+                <TextView
+                    android:id="@+id/descMaluku2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_maluku2"
+                    android:layout_below="@id/judulMaluku2"
+                    android:background="#CFD8DC"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageMaluku3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ambon"
+                    android:layout_below="@id/descMaluku2"
+                    />
+
+                <TextView
+                    android:id="@+id/judulMaluku3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AMBON, ISLAND WITH LUSH GREEN MOUNTAINS AND CRYSTAL CLEAR WATERS"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageMaluku3"
+                    android:background="#CFD8DC"
+                    />
+
+                <TextView
+                    android:id="@+id/descMaluku3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_maluku3"
+                    android:layout_below="@id/judulMaluku3"
+                    android:background="#CFD8DC"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageMaluku4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bandaneira"
+                    android:layout_below="@id/descMaluku3"
+                    />
+
+                <TextView
+                    android:id="@+id/judulMaluku4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BANDA NEIRA, THE TROPICAL ISLAND IN THE BANDA ARCHIPELAGO"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageMaluku4"
+                    android:background="#CFD8DC"
+                    />
+
+                <TextView
+                    android:id="@+id/descMaluku4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_maluku4"
+                    android:layout_below="@id/judulMaluku4"
+                    android:background="#CFD8DC"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

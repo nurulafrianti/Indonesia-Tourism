@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sumatra"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.nurulafrianti.indonesiatourism.Sumatra">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageSumatra1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/wehisland"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSumatra1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WEH ISLAND, THE UNPARALLELED UNDERWATER UNIVERSE"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSumatra1"
+                    android:background="#E1BEE7"
+                    />
+
+                <TextView
+                    android:id="@+id/descSumatra1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sumatra1"
+                    android:layout_below="@id/judulSumatra1"
+                    android:background="#E1BEE7"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSumatra2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laketoba"
+                    android:layout_below="@id/descSumatra1"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSumatra2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LAKE TOBA, THE NATURAL WONDER OF NORTH SUMATRA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSumatra2"
+                    android:background="#E1BEE7"
+                    />
+
+                <TextView
+                    android:id="@+id/descSumatra2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sumatra2"
+                    android:layout_below="@id/judulSumatra2"
+                    android:background="#E1BEE7"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSumatra3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pelelawan"
+                    android:layout_below="@id/descSumatra2"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSumatra3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PELALAWAN, NATURAL BEAUTY WITH VARIOUS EXCITEMENT"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSumatra3"
+                    android:background="#E1BEE7"
+                    />
+
+                <TextView
+                    android:id="@+id/descSumatra3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sumatra3"
+                    android:layout_below="@id/judulSumatra3"
+                    android:background="#E1BEE7"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSumatra4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bintan"
+                    android:layout_below="@id/descSumatra3"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSumatra4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BINTAN ISLAND: THE PERFECT SPORTS AND BEACH GETAWAY"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSumatra4"
+                    android:background="#E1BEE7"
+                    />
+
+                <TextView
+                    android:id="@+id/descSumatra4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sumatra4"
+                    android:layout_below="@id/judulSumatra4"
+                    android:background="#E1BEE7"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSumatra5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kerinci"
+                    android:layout_below="@id/descSumatra4"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSumatra5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MOUNT KERINCI, THE CLIMBERS FAVOURITE"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSumatra5"
+                    android:background="#E1BEE7"
+                    />
+
+                <TextView
+                    android:id="@+id/descSumatra5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sumatra5"
+                    android:layout_below="@id/judulSumatra5"
+                    android:background="#E1BEE7"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSumatra6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/belitung"
+                    android:layout_below="@id/descSumatra5"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSumatra6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BELITUNG, ISLAND WITH STUNNING BEACHES"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSumatra6"
+                    android:background="#E1BEE7"
+                    />
+
+                <TextView
+                    android:id="@+id/descSumatra6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sumatra6"
+                    android:layout_below="@id/judulSumatra6"
+                    android:background="#E1BEE7"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageSumatra7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/waykambas"
+                    android:layout_below="@id/descSumatra6"
+                    />
+
+                <TextView
+                    android:id="@+id/judulSumatra7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WAY KAMBAS NATIONAL PARK, HOME FOR SUMATRAN ELEPHANTS"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageSumatra7"
+                    android:background="#E1BEE7"
+                    />
+
+                <TextView
+                    android:id="@+id/descSumatra7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_sumatra7"
+                    android:layout_below="@id/judulSumatra7"
+                    android:background="#E1BEE7"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

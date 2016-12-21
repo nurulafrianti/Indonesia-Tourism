@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_java"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.nurulafrianti.indonesiatourism.Java">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageJava1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ujungkulon"
+                    />
+
+                <TextView
+                    android:id="@+id/judulJava1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UJUNG KULON NATIONAL PARK, NATURAL SANCTUARY OF ASIAN EXOTIC FAUNA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageJava1"
+                    android:background="#B2EBF2"
+                    />
+
+                <TextView
+                    android:id="@+id/descJava1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_java1"
+                    android:layout_below="@id/judulJava1"
+                    android:background="#B2EBF2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageJava2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jakarta"
+                    android:layout_below="@id/descJava1"
+                    />
+
+                <TextView
+                    android:id="@+id/judulJava2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JAKARTA, A CITY THAT NEVER SLEEPS"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageJava2"
+                    android:background="#B2EBF2"
+                    />
+
+                <TextView
+                    android:id="@+id/descJava2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_java2"
+                    android:layout_below="@id/judulJava2"
+                    android:background="#B2EBF2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageJava3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/seribu"
+                    android:layout_below="@id/descJava2"
+                    />
+
+                <TextView
+                    android:id="@+id/judulJava3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SERIBU ARCHIPELAGO, A RESORT FOR SNORKELING AND SWIMMING"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageJava3"
+                    android:background="#B2EBF2"
+                    />
+
+                <TextView
+                    android:id="@+id/descJava3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_java3"
+                    android:layout_below="@id/judulJava3"
+                    android:background="#B2EBF2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageJava4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dieng"
+                    android:layout_below="@id/descJava3"
+                    />
+
+                <TextView
+                    android:id="@+id/judulJava4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="DIENG PLATEAU: AMONG THE GODS AT DIENG PLATEAU"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageJava4"
+                    android:background="#B2EBF2"
+                    />
+
+                <TextView
+                    android:id="@+id/descJava4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_java4"
+                    android:layout_below="@id/judulJava4"
+                    android:background="#B2EBF2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageJava5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/yogyakarta"
+                    android:layout_below="@id/descJava4"
+                    />
+
+                <TextView
+                    android:id="@+id/judulJava5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="YOGYAKARTA, THE NEVERENDING ASIA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageJava5"
+                    android:background="#B2EBF2"
+                    />
+
+                <TextView
+                    android:id="@+id/descJava5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_java5"
+                    android:layout_below="@id/judulJava5"
+                    android:background="#B2EBF2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageJava6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bromo"
+                    android:layout_below="@id/descJava5"
+                    />
+
+                <TextView
+                    android:id="@+id/judulJava6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BROMO TENGGER SEMERU NATIONAL PARK"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageJava6"
+                    android:background="#B2EBF2"
+                    />
+
+                <TextView
+                    android:id="@+id/descJava6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_java6"
+                    android:layout_below="@id/judulJava6"
+                    android:background="#B2EBF2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageJava7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ijen"
+                    android:layout_below="@id/descJava6"
+                    />
+
+                <TextView
+                    android:id="@+id/judulJava7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IJEN CRATER, THE ACTIVE VOLCANO FOR ADVENTURER HIKERS"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imageJava7"
+                    android:background="#B2EBF2"
+                    />
+
+                <TextView
+                    android:id="@+id/descJava7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_java7"
+                    android:layout_below="@id/judulJava7"
+                    android:background="#B2EBF2"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

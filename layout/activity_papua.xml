@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_papua"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.nurulafrianti.indonesiatourism.Papua">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/imagePapua1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/baliem"
+                    />
+
+                <TextView
+                    android:id="@+id/judulPapua1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BALIEM VALLEY, THE STUNNING VALLEY OF THE DANI TRIBE"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imagePapua1"
+                    android:background="#D7CCC8"
+                    />
+
+                <TextView
+                    android:id="@+id/descPapua1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_papua1"
+                    android:layout_below="@id/judulPapua1"
+                    android:background="#D7CCC8"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imagePapua2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/jayapura"
+                    android:layout_below="@id/descPapua1"
+                    />
+
+                <TextView
+                    android:id="@+id/judulPapua2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JAYAPURA, A GATE TO THE ADVENTUROUS JOURNEY"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imagePapua2"
+                    android:background="#D7CCC8"
+                    />
+
+                <TextView
+                    android:id="@+id/descPapua2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_papua2"
+                    android:layout_below="@id/judulPapua2"
+                    android:background="#D7CCC8"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imagePapua3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/merauke"
+                    android:layout_below="@id/descPapua2"
+                    />
+
+                <TextView
+                    android:id="@+id/judulPapua3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MERAUKE, THE ENCHANTING TOWN IN THE EAST OF INDONESIA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imagePapua3"
+                    android:background="#D7CCC8"
+                    />
+
+                <TextView
+                    android:id="@+id/descPapua3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_papua3"
+                    android:layout_below="@id/judulPapua3"
+                    android:background="#D7CCC8"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imagePapua4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rajaampat"
+                    android:layout_below="@id/descPapua3"
+                    />
+
+                <TextView
+                    android:id="@+id/judulPapua4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RAJA AMPAT, A FASCINATING MARINE PARADISE IN WEST PAPUA"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@id/imagePapua4"
+                    android:background="#D7CCC8"
+                    />
+
+                <TextView
+                    android:id="@+id/descPapua4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desc_papua4"
+                    android:layout_below="@id/judulPapua4"
+                    android:background="#D7CCC8"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="20dp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
